@@ -1,0 +1,17 @@
+a=int(input("enter 1st number: "))
+b=int(input("enter 2nd number: "))
+c=input("Enter your choice +,-,*,/: ")
+if c=="+":
+    d=a+b
+    print("The ans is: ",d)
+elif c=="-":
+    e=a-b
+    print("The ans is: ",e)
+elif c=="*":
+    f=a*b
+    print("The ans is: ",f)
+elif c=="/":
+    g=a/b
+    print("The ans is: ",g)
+else:
+    print("enter valid opertaion!!")
